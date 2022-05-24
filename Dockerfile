@@ -26,7 +26,7 @@ RUN apt update
 
 RUN apt install jellyfin -y
 
-COPY ./plugins /plugins/YoutubeeMetaData
+COPY ./plugins /plugins/YoutubeMetaData
 COPY ./ronaldo_drinking_meme.mp4 /media
 
 EXPOSE 8096
